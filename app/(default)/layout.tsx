@@ -7,12 +7,15 @@ import "aos/dist/aos.css";
 
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 export default function DefaultLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  useScrollReveal();
+
   useEffect(() => {
     AOS.init({
       once: true,

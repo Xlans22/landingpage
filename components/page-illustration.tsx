@@ -11,9 +11,9 @@ export default function PageIllustration({
 }) {
   return (
     <>
-      {/* Top Hero Glow */}
+      {/* Top Hero Glow with GPU 3D Floating Motion */}
       <div
-        className="pointer-events-none absolute left-1/2 top-0 -z-10 -translate-x-1/4"
+        className="pointer-events-none absolute left-1/2 top-0 -z-10 -translate-x-1/4 ambient-orb-primary opacity-40 dark:opacity-100 transition-opacity duration-500"
         aria-hidden="true"
       >
         <Image
@@ -30,7 +30,7 @@ export default function PageIllustration({
       {multiple && (
         <>
           <div
-            className="pointer-events-none absolute left-1/2 top-[400px] -z-10 -mt-20 -translate-x-full opacity-50"
+            className="pointer-events-none absolute left-1/2 top-[400px] -z-10 -mt-20 -translate-x-full opacity-25 dark:opacity-50 ambient-orb-secondary transition-opacity duration-500"
             aria-hidden="true"
           >
             <Image
@@ -42,7 +42,7 @@ export default function PageIllustration({
             />
           </div>
           <div
-            className="pointer-events-none absolute left-1/2 top-[440px] -z-10 -translate-x-1/3"
+            className="pointer-events-none absolute left-1/2 top-[440px] -z-10 -translate-x-1/3 ambient-orb-primary opacity-35 dark:opacity-100 transition-opacity duration-500"
             aria-hidden="true"
           >
             <Image
@@ -54,7 +54,7 @@ export default function PageIllustration({
             />
           </div>
           <div
-            className="pointer-events-none absolute left-1/2 top-[1200px] -z-10 -translate-x-1/2 opacity-70"
+            className="pointer-events-none absolute left-1/2 top-[1200px] -z-10 -translate-x-1/2 opacity-35 dark:opacity-70 ambient-orb-secondary transition-opacity duration-500"
             aria-hidden="true"
           >
             <Image
