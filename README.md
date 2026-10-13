@@ -22,7 +22,7 @@ Enterprise technical landing page and digital architecture for **Flamingo Emergi
 | `[NAVBAR]` | `components/ui/header.tsx` | Sticky glassmorphic navigation with brand title and quick routes |
 | `#hero` | `components/hero-home.tsx` | Clean enterprise headline, mission-critical advisory sub-headline, and CTAs |
 | `#capabilities` | `components/capabilities.tsx` | **Engineering Disciplines** 3-card spotlight grid detailing licensed activities, engineering scope, and implementations |
-| `#products` | `components/proprietary-rd.tsx` | **Proprietary Engines** Enterprise Workflow Engines: **Flamingo DocuVerify Engine™** and **Flamingo SynapseSearch™** with spotlight hover cards |
+| `#proprietary-engines` | `components/proprietary-rd.tsx` | **Proprietary Engines** Enterprise Workflow Engines: **Flamingo DocuVerify Engine™** and **Flamingo SynapseSearch™** with spotlight hover cards (alias: `#products`) |
 | `#governance` | `components/governance.tsx` | **Governance & Compliance** The 3 Immutable Design Laws in spotlight cards (Advisory Sandboxing, Mandatory Operator Sign-Off, Deterministic Guardrails) |
 | `#contact` | `components/cta.tsx` & `components/ui/footer.tsx` | Technical Briefing intake actions with native spotlight card, commercial license registration, licensed activities list, headquarters, and copyright notice |
 

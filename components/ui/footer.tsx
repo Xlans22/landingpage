@@ -81,12 +81,12 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs text-slate-600 dark:text-gray-400 font-sans">
               <li>
-                <a href="#products" className="hover:text-blue-700 dark:hover:text-cyan-400 transition-colors">
+                <a href="#proprietary-engines" className="hover:text-blue-700 dark:hover:text-cyan-400 transition-colors">
                   DocuVerify Engine™
                 </a>
               </li>
               <li>
-                <a href="#products" className="hover:text-blue-700 dark:hover:text-cyan-400 transition-colors">
+                <a href="#proprietary-engines" className="hover:text-blue-700 dark:hover:text-cyan-400 transition-colors">
                   SynapseSearch™
                 </a>
               </li>
@@ -168,7 +168,7 @@ export default function Footer() {
               Core Disciplines
             </a>
             <span className="text-slate-300 dark:text-gray-700">•</span>
-            <a href="#products" className="hover:text-blue-700 dark:hover:text-cyan-400 transition-colors">
+            <a href="#proprietary-engines" className="hover:text-blue-700 dark:hover:text-cyan-400 transition-colors">
               Proprietary Engines
             </a>
             <span className="text-slate-300 dark:text-gray-700">•</span>

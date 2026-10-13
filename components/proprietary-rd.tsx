@@ -2,7 +2,8 @@ import Spotlight from "@/components/spotlight";
 
 export default function ProprietaryRd() {
   return (
-    <section id="products" className="relative scroll-mt-24">
+    <section id="proprietary-engines" className="relative scroll-mt-24">
+      <div id="products" className="scroll-mt-24" aria-hidden="true" />
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="border-t border-slate-200 dark:border-gray-800/80 py-16 md:py-24 transition-colors">
           {/* Section header */}

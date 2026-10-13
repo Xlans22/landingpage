@@ -1,8 +1,25 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Logo() {
+  const handleScrollToTop = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (window.location.pathname === "/") {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
-    <Link href="/" className="inline-flex items-center gap-2.5 group" aria-label="Flamingo Emerging Technologies">
+    <Link
+      href="/"
+      onClick={handleScrollToTop}
+      aria-label="Flamingo Emerging Technologies - Return to top"
+      className="inline-flex items-center gap-2.5 cursor-pointer transition-opacity hover:opacity-90 group"
+    >
       <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-linear-to-br from-blue-600 to-cyan-500 text-white shadow-md shadow-blue-500/25 ring-1 ring-white/20 transition-transform group-hover:scale-105">
         <svg
           className="h-4 w-4"

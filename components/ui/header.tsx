@@ -57,7 +57,7 @@ export default function Header() {
 
   const navLinks = [
     { name: "Core Disciplines", href: "#capabilities" },
-    { name: "Proprietary Engines", href: "#products" },
+    { name: "Proprietary Engines", href: "#proprietary-engines" },
     { name: "Safety Laws", href: "#governance" },
   ];
 
